@@ -1,7 +1,7 @@
 # Data Analyst
 
 ### Education
-Certified Google Data Analyst 
+Certified Google Data Analyst |
 Fine Arts, B.A.
 
 ### Work Experience
