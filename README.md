@@ -1,4 +1,4 @@
-# chrispin.github.io
+# Data Analyst
 
 ### Education
 Certified Google Data Analyst 
