@@ -3,8 +3,8 @@
 #### Technical Skills: SQL, Looker Studio, BigQuery, Tableau, Google Sheets, Excel
 
 ## Education
-Certified Google Data Analyst |
-Fine Arts, B.A.
+- Google Data Analytics Certification
+- B.A., International Academy of Design and Technology 
 
 ## Work Experience
 Data Analyst
