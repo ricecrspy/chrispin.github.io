@@ -1,4 +1,4 @@
-# Data Analyst
+# Data Analyst | Data Visulization
 
 #### Technical Skills: SQL, Looker Studio, BigQuery, Tableau, Google Sheets, Excel
 
