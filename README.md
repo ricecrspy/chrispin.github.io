@@ -1,7 +1,8 @@
 # Data Analyst | Data Visulization
 
-#### Technical Skills: 
-##### SQL, Looker Studio, BigQuery, Tableau, Google Sheets, Excel
+### Technical Skills
+#### Data: SQL, Looker Studio, BigQuery, Tableau, Google Sheets, Excel
+#### Visulization: Adobe Illustrator, Adobe Photoshop, Adobe XD, Adobe Creative Cloud
 
 ## Education
 - Google Data Analytics Certification (2024)
