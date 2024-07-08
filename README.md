@@ -32,14 +32,14 @@
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
 
 <br><br>
-![Cover Page](assets/img/portfolio/capstone/cover_page.png)
 ![Dataset](assets/img/portfolio/capstone/dataset.png)
 <br><br>
 
-#### SQL Example
+#### Data Cleaning and Manipulation
 
-Here is an example of SQL code:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
 
+![Variables](assets/img/portfolio/capstone/variables.png)
 ```
 WITH descrip_tbl AS -- replace decription_id CTE
 (SELECT
