@@ -38,12 +38,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
 
 <br><br>
-![Dataset](assets/img/portfolio/capstone/dataset.png)
+![Data_gathering](assets/img/portfolio/capstone/data_gathering.png)
 <br><br>
 
+#### VARIABLES
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
 
-![Variables](assets/img/portfolio/capstone/variables.png)
+![Variables](assets/img/portfolio/capstone/Variables.png)
 
 ##### SQL EXAMPLE: Description_id string extraction for deeper style analysis
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
