@@ -6,7 +6,7 @@
 
 ## Education
 - Google Data Analytics Certification (2024)
-- B.A., International Academy of Design and Technology (2008)
+- B.A. Fashion Design & Marketing, IADT (2008)
 
 ## Work Experience
 **Digital Marketing Analyst @ Haute Hero (2014 - 2023)**
@@ -25,6 +25,6 @@
 - Developed user-generated content (UGC), including product photography, lookbook images, social media content, editorial content, and newsletter
 
 ## Projects
-- Project A
-- Project B
-- Project C
+
+**Outerwear Market Research Report (Google Data Analytics Capstone Project)**
+
