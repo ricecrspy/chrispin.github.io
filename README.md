@@ -26,12 +26,13 @@
 
 ## Projects
 
-### **Outerwear Market Research Report (Google Data Analytics Capstone Project)**
+### Outerwear Market Research Report (Google Data Analytics Capstone Project)
 
-**Outline**
-
+#### Outline
+<div style="height: 50px;"></div>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
 
+<br><br>
 ![Cover Page](assets/img/portfolio/capstone/cover_page.png)
 
 
