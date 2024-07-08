@@ -26,15 +26,15 @@
 
 ## Projects
 
-### Outerwear Market Research Report (Google Data Analytics Capstone Project)
-#### Report Outline
+### 01. Outerwear Market Research Report (Google Data Analytics Capstone Project)
+#### OULTINE
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
 
 - Data Gathering
 - Data Cleaning and Manipulation
 - Visulization
 
-#### Data Gathering
+#### DATA GATHERING
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
 
 <br><br>
@@ -45,7 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex
 
 ![Variables](assets/img/portfolio/capstone/variables.png)
 
-##### SQL Example: Coalesce data to remove null values
+##### SQL EXAMPLE: Description_id string extraction for deeper style analysis
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
 
 ```
