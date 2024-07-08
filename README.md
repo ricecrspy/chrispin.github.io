@@ -35,12 +35,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex
 ![Cover Page](assets/img/portfolio/capstone/cover_page.png)
 ![Dataset](assets/img/portfolio/capstone/dataset.png)
 <br><br>
-```markdown
-# My Project
 
-Welcome to my project! This project demonstrates some SQL examples.
-
-## SQL Example
+#### SQL Example
 
 Here is an example of SQL code:
 
@@ -48,6 +44,6 @@ Here is an example of SQL code:
 SELECT * 
 FROM users 
 WHERE age > 30;
-
+```
 
 
