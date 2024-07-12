@@ -27,7 +27,7 @@
 ## Projects
 
 ### Outerwear Market Research Report (Google Data Analytics Capstone Project)
-#### OUTlINE
+#### OUTLINE
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
 
 - Data Gathering
@@ -61,22 +61,10 @@ style_tbl AS  -- Style_id CTE
 (SELECT
   brand_id,
   product_name,
-  COALESCE(
-  REGEXP_EXTRACT(description_id, r'Jacket'), 
-  REGEXP_EXTRACT(description_id, r'Vest'),
-  REGEXP_EXTRACT(description_id, r'Parka'), 
-  REGEXP_EXTRACT(description_id, r'Coat'), 
-  REGEXP_EXTRACT(description_id, r'Fleece'),
-  REGEXP_EXTRACT(description_id, r'Anorak'),
-  REGEXP_EXTRACT(description_id, r'Overcoat'),
-  REGEXP_EXTRACT(description_id, r'Peacoat'),
-  REGEXP_EXTRACT(description_id, r'Gilet'),
-  REGEXP_EXTRACT(description_id, r'Track Top'),
-  REGEXP_EXTRACT(description_id, r'Sweatshirt'),
-  REGEXP_EXTRACT(description_id, r'Shacket'),
-  REGEXP_EXTRACT(description_id, r'Overshirt')
+  REGEXP_EXTRACT(
+    description_id,
+    r'Jacket|Vest|Parka|Coat|Fleece|Anorak|Overcoat|Peacoat|Gilet|Track Top|Sweatshirt|Shacket|Overshirt'
   ) AS style_id
-
   FROM descrip_tbl
   GROUP BY brand_id, product_name, description_id
 
@@ -85,42 +73,12 @@ sub_style_tbl AS -- Sub_style_id CTE
 (SELECT
   brand_id,
   product_name,
-  COALESCE(
-  REGEXP_EXTRACT(product_Name, r'Padded'),
-  REGEXP_EXTRACT(product_Name, r'Down'), 
-  REGEXP_EXTRACT(product_Name, r'Linner'),
-  REGEXP_EXTRACT(product_Name, r'Puffer'),
-  REGEXP_EXTRACT(product_Name, r'Bomber'),
-  REGEXP_EXTRACT(product_Name, r'Varsity'),
-  REGEXP_EXTRACT(product_Name, r'Hoodie'),
-  REGEXP_EXTRACT(product_Name, r'Flight'),
-  REGEXP_EXTRACT(product_Name, r'Coach'),
-  REGEXP_EXTRACT(product_Name, r'Fleece'),
-  REGEXP_EXTRACT(product_Name, r'Shirt'),
-  REGEXP_EXTRACT(product_Name, r'Track'),
-  REGEXP_EXTRACT(product_Name, r'Packable'),
-  REGEXP_EXTRACT(product_Name, r'Nylon'),
-  REGEXP_EXTRACT(product_Name, r'Chore'),
-  REGEXP_EXTRACT(product_Name, r'Shell'),
-  REGEXP_EXTRACT(product_Name, r'Zip'),
-  REGEXP_EXTRACT(product_Name, r'Ripstop'),
-  REGEXP_EXTRACT(product_Name, r'GORE-TEX'),
-  REGEXP_EXTRACT(product_Name, r'Packable'),
-  REGEXP_EXTRACT(product_Name, r'Windrunner'),
-  REGEXP_EXTRACT(product_Name, r'Shearling'),
-  REGEXP_EXTRACT(product_Name, r'Quilted'),
-  REGEXP_EXTRACT(product_Name, r'Wool'),
-  REGEXP_EXTRACT(product_Name, r'Twill'),
-  REGEXP_EXTRACT(product_Name, r'Corduroy'),
-  REGEXP_EXTRACT(product_Name, r'Canvas'),
-  REGEXP_EXTRACT(product_Name, r'Flannel'),
-  REGEXP_EXTRACT(product_Name, r'WIP'),
-  REGEXP_EXTRACT(product_Name, r'Denim'),
-  REGEXP_EXTRACT(product_Name, r'Windbreaker'),
-  REGEXP_EXTRACT(product_Name, r'Primaloft®'),
-  REGEXP_EXTRACT(product_Name, r'Cotton'),
-  REGEXP_EXTRACT(product_Name, r'Hoodied'),
-  REGEXP_EXTRACT(product_Name, r'Leather')
+  REGEXP_EXTRACT(
+    product_name,
+    r'Padded|Down|Linner|Puffer|Bomber|Varsity|Hoodie|Flight|Coach|
+    Fleece|Shirt|Track|Packable|Nylon|Chore|Shell|Zip|Ripstop|GORE-TEX|
+    Packable|Windrunner|Shearling|Quilted|Wool|Twill|Corduroy|Canvas|
+    Flannel|WIP|Denim|Windbreaker|Primaloft®|Cotton|Hoodied|Leather'
   ) AS sub_style_id
 
 FROM data-analytics-course-413120.gda_course_8_data.outerwear_tbl
@@ -144,7 +102,7 @@ FROM
 GROUP BY brand_id,description_id, style_id, sub_style_tbl.sub_style_id, price
 ORDER BY price DESC
 ```
-##### CLEANED TABLE EXAMPLE
+#### CLEANED TABLE
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <br><br>
 ![cleane](assets/img/portfolio/capstone/cleaned_data.png)
