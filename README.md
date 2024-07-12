@@ -109,10 +109,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex
 <br><br>
 ![clean](assets/img/portfolio/capstone/cleaned_data.png)
 
-### VISUALIZATION
+#### Null Values
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-![cover_page](assets/img/portfolio/capstone/cover_page.png)
+
+#### VISUALIZATION
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 
 
