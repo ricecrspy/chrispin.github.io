@@ -117,6 +117,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ![cover_page](assets/img/portfolio/capstone/cover_page_16x9.png)
+![categories](assets/img/portfolio/capstone/categories_16x9.png)
+![down](assets/img/portfolio/capstone/down_16x9.png)
+![down_cat](assets/img/portfolio/capstone/down_categories_16x9.png)
+![unique_styles](assets/img/portfolio/capstone/unique_styles_16x9.png)
+![canada](assets/img/portfolio/capstone/canada_goose_16x9.png)
+![key_takeaways](assets/img/portfolio/capstone/key_takeaways_16x9.png)
+![recommendations](assets/img/portfolio/capstone/recommendations_16x9.png)
 
 
 
