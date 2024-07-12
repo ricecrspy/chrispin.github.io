@@ -63,7 +63,8 @@ style_tbl AS  -- Style_id CTE
   product_name,
   REGEXP_EXTRACT(
     description_id,
-    r'Jacket|Vest|Parka|Coat|Fleece|Anorak|Overcoat|Peacoat|Gilet|Track Top|Sweatshirt|Shacket|Overshirt'
+    r'Jacket|Vest|Parka|Coat|Fleece|Anorak|Overcoat|
+      Peacoat|Gilet|Track Top|Sweatshirt|Shacket|Overshirt'
   ) AS style_id
   FROM descrip_tbl
   GROUP BY brand_id, product_name, description_id
@@ -102,7 +103,7 @@ FROM
 GROUP BY brand_id,description_id, style_id, sub_style_tbl.sub_style_id, price
 ORDER BY price DESC
 ```
-#### CLEANED TABLE
+#### TABLE CLEANED AND READY FOR ANALYSIS
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <br><br>
 ![cleane](assets/img/portfolio/capstone/cleaned_data.png)
