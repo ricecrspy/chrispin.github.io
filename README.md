@@ -26,16 +26,16 @@
 
 ## Projects
 
-### Outerwear Trend Report (Google Data Analytics Capstone Project)
+### 1.0 Outerwear Trend Report (Google Data Analytics Capstone Project)
 
-#### OUTLINE
+#### 1.1 OUTLINE
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
 
 - Data Gathering
 - Data Cleaning and Manipulation
 - Visulization
 
-#### DATA GATHERING
+#### 1.2 DATA GATHERING
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
 
 ![Data_gathering](assets/img/portfolio/capstone/data_gathering.png)
@@ -44,7 +44,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex
 <br><br>
 ![uncleaned_data](assets/img/portfolio/capstone/uncleaned_data.png)
 
-#### DATA CLEANING AND MANIPULATION
+#### 1.3 DATA CLEANING AND MANIPULATION
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. 
 
 ```
@@ -104,16 +104,16 @@ FROM
 GROUP BY brand_id,description_id, style_id, sub_style_tbl.sub_style_id, price
 ORDER BY price DESC
 ```
-#### TABLE CLEANED AND READY FOR ANALYSIS
+#### 1.4 TABLE CLEANED AND READY FOR ANALYSIS
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <br><br>
 ![clean](assets/img/portfolio/capstone/cleaned_data.png)
 
-#### NULL VALUES
+#### 1.5 NULL VALUES
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 
-#### VISUALIZATION
+#### 1.6 VISUALIZATION
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ![cover_page](assets/img/portfolio/capstone/cover_page_16x9.png)
