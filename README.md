@@ -43,13 +43,13 @@ I identified five e-commerce boutique stores that align with the Berlin's market
  
 ![Data_gathering](assets/img/portfolio/capstone/data_gathering.png)
 
-Initially, I attempted to manually aggregate the data using the ```=IMPORTRANGE("spreadsheet_id", "Sheet1!A1:B10")``` function, however, this was not suitable and instead use ```=QUERY()``` instead. This allowed me to begin aggregation, but only after I created matching columns in all five tables: brand_id, description, colorway, sales, and discount columns. Although this method achieved the results I was looking for it was not the most efficent nor was it great for analysis.  
+Using the ```=QUERY()``` function I begin data aggregation, but only after I created matching columns in all five tables: brand_id, description, colorway, sales, and discount columns. Although this method achieved the results I was looking for it was not the most efficient for analysis.  
 
 ![google_sheets_tlb](assets/img/portfolio/capstone/google_sheets_tlbs.png)
 
 #### 1.4 DATA CLEANING AND MANIPULATION (SQL)
 
-By moving the data to bigQuery I was now able to begin joining the datasets, however, each store handled ```product_name``` and ```description``` variables differently. For example, while one website would include a description in the ```product_name``` variable, another had the ```description_name``` but not product_name. Furthermore, the ```brand_name``` would vary from table to table sometimes in the ```description_id``` while others in the ```product_name```. This lead to an unnecessary amount of ```null``` values between the two variables. Due to my domain expertise I understood brand names would be consistant regardless of e-commerce vendor, therefore using ```REGEXP_EXTRACT()``` function I was able to 
+By moving the data to bigQuery I began joining the datasets using ```brand_id``` as the key_id and combined ```product_name``` w/ ```description``` as simply ```description```. Finally, I had a consistant aggregated dataset, however while I had my dataset 
 <br><br>
 
 ```
