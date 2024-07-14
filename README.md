@@ -26,18 +26,19 @@
 
 ## Projects
 
-### OUTERWEAR MARKET REPORT
+### BERLIN OUTERWEAR MARKET REPORT
 
 #### 1.1 OUTLINE
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
+Berlin, a European premium fashion brand, wants to expand its line to offer outerwear pieces. However, before launching the new product line, the company's President wants a high-level report analyzing current market trends and competitors. The Director of Marketing and Sales has tasked you with performing market research and creating a report that highlights trends, market insights, and key recommendations using data analytics.
 
 - Data Gathering
 - Data Cleaning and Manipulation
-- Visulization
+- Visualization
 
 #### 1.2 DATA GATHERING
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
-
+- Step 1: I identified five e-commerce boutique stores that align with the Berlin's market positioning in terms of price, product design, target customer, and quality.
+- Step 2: Using a Chrome browser web crawler extension I scraped over 300 rows of data observations, about 30-70 rows from each website, based on the following variables: brand name, product description, colorway, price, discount, and sale price.
+- Step 3: Each 
 ![Data_gathering](assets/img/portfolio/capstone/data_gathering.png)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
