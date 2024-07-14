@@ -45,12 +45,12 @@
  
 ![Data_gathering](assets/img/portfolio/capstone/data_gathering.png)
 
-Initally I attempted at manually aggregating the data using the ```=IMPORTRANGE("spreadsheet_id", "Sheet1!A1:B10")``` function, however this lead to numerous null values in the brand_id, colorway, sales, and discount columns. After investigating the issue I realized that I needed a key_id column to effectively join the different datasets. 
+Initially, I attempted to manually aggregate the data using the =IMPORTRANGE("spreadsheet_id", "Sheet1!A1:B10") function. However, this led to numerous null values in the brand_id, colorway, sales, and discount columns. Due to the dataset variations, I realized a key_id column was needed to effectively join the different datasets, leading me to use SQL.
 
 <br><br>
 ![uncleaned_data](assets/img/portfolio/capstone/uncleaned_data.png)
 
-#### 1.3 DATA CLEANING AND MANIPULATION
+#### 1.3 DATA CLEANING AND MANIPULATION W/ SQL
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. 
 
 ```
