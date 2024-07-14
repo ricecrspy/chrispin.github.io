@@ -49,7 +49,8 @@ Initially, I attempted to manually aggregate the data using the ```=IMPORTRANGE(
 ![uncleaned_data](assets/img/portfolio/capstone/uncleaned_data.png)
 
 #### 1.3 DATA CLEANING AND MANIPULATION W/ SQL
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. 
+During the data cleaning phase a major issue joining the datasets became apparent. Each website handled ```product_name``` and ```description_id``` differently, while one e-commerce store would include a description in the ```product_name``` variable, another had the ```description_id``` variable in it's own column. Furthermore, ```brand_name``` would vary from table to table, sometimes in the ```description_id``` while others in the ```product_name```. 
+
 
 ```
 WITH descrip_tbl AS -- replace decription_id CTE
