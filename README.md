@@ -28,20 +28,25 @@
 
 ### BERLIN OUTERWEAR MARKET REPORT
 
-#### 1.1 OUTLINE
-Berlin, a European premium fashion brand, wants to expand its line to offer outerwear pieces. However, before launching the new product line, the company's President wants a high-level report analyzing current market trends and competitors. The Director of Marketing and Sales has tasked you with performing market research and creating a report that highlights trends, market insights, and key recommendations using data analytics.
+#### 1.1 OBJECTIVE
+(Google Data Analytics Capstone) Berlin, a premium streetwear fashion brand, wants to expand by offering outerwear pieces in it's collection. However, before launching the new product line, the company's President wants a high-level report analyzing current market trends and competitors. The Director of Marketing and Sales tasked me with performing market research and to create a report that highlights trends, market insights, and key recommendations using data analytics.
+
+#### 1.2 OUTLINE
 
 - Data Gathering
 - Data Cleaning and Manipulation
 - Visualization
+- Insights and Recommendations
 
 #### 1.2 DATA GATHERING
 - Step 1: I identified five e-commerce boutique stores that align with the Berlin's market positioning in terms of price, product design, target customer, and quality.
 - Step 2: Using a Chrome browser web crawler extension I scraped over 300 rows of data observations, about 30-70 rows from each website, based on the following variables: brand name, product description, colorway, price, discount, and sale price.
-- Step 3: Each 
+- Step 3: Data structures varied from store to store and as a result a unique table was created for each totaling five tables.
+ 
 ![Data_gathering](assets/img/portfolio/capstone/data_gathering.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor.
+Initally I attempted at manually aggregating the data using the ```=IMPORTRANGE("spreadsheet_id", "Sheet1!A1:B10")``` function, however this lead to numerous null values in the brand_id, colorway, sales, and discount columns. After investigating the issue I realized that I needed a key_id column to effectively join the different datasets. 
+
 <br><br>
 ![uncleaned_data](assets/img/portfolio/capstone/uncleaned_data.png)
 
