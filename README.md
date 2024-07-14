@@ -33,24 +33,28 @@
 
 #### 1.2 OUTLINE
 
-- Data Gathering
-- Data Cleaning and Manipulation
-- Visualization
-- Insights and Recommendations
+- 1.3 Data Gathering
+- 1.4 Data Cleaning and Manipulation
+- 1.5 Visualization
+- 1.6 Insights and Recommendations
 
-#### 1.2 DATA GATHERING
+#### 1.3 DATA GATHERING
 I identified five e-commerce boutique stores that align with the Berlin's market positioning in terms of price, product design, target customer, and quality. Using a Chrome browser web crawler extension I scraped over 300 rows of data observations, about 30-70 rows from each website, based on the following variables: brand name, product description, colorway, price, discount, and sale price. Data structures varied from store to store and as a result a unique table was created for each totaling five tables.
  
 ![Data_gathering](assets/img/portfolio/capstone/data_gathering.png)
 
-Initially, I attempted to manually aggregate the data using the ```=IMPORTRANGE("spreadsheet_id", "Sheet1!A1:B10")``` function. However, this led to numerous null values in the brand_id, colorway, sales, and discount columns. Due to the dataset variations, I realized a key_id column was needed to effectively join the different datasets, leading me to use SQL.
+Initially, I attempted to manually aggregate the data using the ```=IMPORTRANGE("spreadsheet_id", "Sheet1!A1:B10")``` function. However, this led to numerous null values in the brand_id, colorway, sales, and discount columns. Due to the dataset variations, I realized a key_id column was needed to effectively join the different datasets.
 
-<br><br>
+
+
+#### 1.4 DATA CLEANING AND MANIPULATION (Google Sheets)
+
 ![uncleaned_data](assets/img/portfolio/capstone/uncleaned_data.png)
 
-#### 1.3 DATA CLEANING AND MANIPULATION W/ SQL
-During the data cleaning phase a major issue joining the datasets became apparent. Each website handled ```product_name``` and ```description_id``` differently, while one e-commerce store would include a description in the ```product_name``` variable, another had the ```description_id``` variable in it's own column. Furthermore, ```brand_name``` would vary from table to table, sometimes in the ```description_id``` while others in the ```product_name```. 
+#### 1.4.1 DATA CLEANING AND MANIPULATION (SQL)
 
+By moving the data to bigQuery I was now able to begin joining the datasets, however, each store handled ```product_name``` and ```description``` variables differently. For example, while one website would include a description in the ```product_name``` variable, another had the ```description_name``` but not product_name. Furthermore, the ```brand_name``` would vary from table to table sometimes in the ```description_id``` while others in the ```product_name```. Due to my domain knowlege expertise I understood brand names would be consistant regardless of e-commerce vendor, therefore using ```REGEXP_EXTRACT()``` function I was able to 
+<br><br>
 
 ```
 WITH descrip_tbl AS -- replace decription_id CTE
@@ -109,16 +113,16 @@ FROM
 GROUP BY brand_id,description_id, style_id, sub_style_tbl.sub_style_id, price
 ORDER BY price DESC
 ```
-#### 1.4 TABLE CLEANED AND READY FOR ANALYSIS
+#### 1.5 TABLE CLEANED AND READY FOR ANALYSIS
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <br><br>
 ![clean](assets/img/portfolio/capstone/cleaned_data.png)
 
-#### 1.5 NULL VALUES
+#### 1.6 NULL VALUES
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 
-#### 1.6 VISUALIZATION
+#### 1.7 VISUALIZATION
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ![cover_page](assets/img/portfolio/capstone/cover_page_16x9.png)
