@@ -39,13 +39,11 @@
 - Insights and Recommendations
 
 #### 1.2 DATA GATHERING
-- Step 1: I identified five e-commerce boutique stores that align with the Berlin's market positioning in terms of price, product design, target customer, and quality.
-- Step 2: Using a Chrome browser web crawler extension I scraped over 300 rows of data observations, about 30-70 rows from each website, based on the following variables: brand name, product description, colorway, price, discount, and sale price.
-- Step 3: Data structures varied from store to store and as a result a unique table was created for each totaling five tables.
+I identified five e-commerce boutique stores that align with the Berlin's market positioning in terms of price, product design, target customer, and quality. Using a Chrome browser web crawler extension I scraped over 300 rows of data observations, about 30-70 rows from each website, based on the following variables: brand name, product description, colorway, price, discount, and sale price. Data structures varied from store to store and as a result a unique table was created for each totaling five tables.
  
 ![Data_gathering](assets/img/portfolio/capstone/data_gathering.png)
 
-Initially, I attempted to manually aggregate the data using the =IMPORTRANGE("spreadsheet_id", "Sheet1!A1:B10") function. However, this led to numerous null values in the brand_id, colorway, sales, and discount columns. Due to the dataset variations, I realized a key_id column was needed to effectively join the different datasets, leading me to use SQL.
+Initially, I attempted to manually aggregate the data using the ```=IMPORTRANGE("spreadsheet_id", "Sheet1!A1:B10")``` function. However, this led to numerous null values in the brand_id, colorway, sales, and discount columns. Due to the dataset variations, I realized a key_id column was needed to effectively join the different datasets, leading me to use SQL.
 
 <br><br>
 ![uncleaned_data](assets/img/portfolio/capstone/uncleaned_data.png)
