@@ -29,7 +29,7 @@
 ### BERLIN OUTERWEAR MARKET REPORT
 
 #### 1.1 OBJECTIVE
-(Google Data Analytics Capstone) Berlin, a premium streetwear fashion brand, wants to expand by offering outerwear pieces in it's collection. However, before launching the new product line, the company's President wants a high-level report analyzing current market trends and competitors. The Director of Marketing and Sales tasked me with performing market research and to create a report that highlights trends, market insights, and key recommendations using data analytics.
+Google Data Analytics Capstone: Berlin, a premium streetwear fashion brand, wants to expand by offering outerwear pieces in its collection. However, before launching the new product line, the company's President wants a high-level report analyzing current market trends and competitors. The Director of Marketing and Sales tasked me with performing market research and creating a report that highlights trends, market insights, and key recommendations using data analytics.
 
 #### 1.2 OUTLINE
 
@@ -39,19 +39,19 @@
 - 1.6 Insights and Recommendations
 
 #### 1.3 DATA GATHERING
-I identified five e-commerce boutique stores that align with the Berlin's market positioning in terms of price, product design, target customer, and quality. Using a Chrome browser web crawler extension I scraped over 300 rows of data observations, about 30-70 rows from each website, based on the following variables: brand name, product description, colorway, price, discount, and sale price. Data structures varied from store to store and as a result a unique table was created for each totaling five tables.
- 
+I identified five e-commerce boutique stores that align with Berlin's market positioning in terms of price, product design, target customer, and quality. Using a Chrome browser web crawler extension, I scraped over 300 rows of data observations, about 30-70 rows from each website, based on the following variables: brand name, product description, colorway, price, discount, and sale price. Data structures varied from store to store, and as a result, a unique table was created for each, totaling five tables.
+
 ![Data_gathering](assets/img/portfolio/capstone/data_gathering.png)
 
-Using the ```=QUERY()``` function I begin data aggregation, but only after I created matching columns in all five tables: brand_id, description, colorway, sales, and discount columns. Although this method achieved the results I was looking for it was not the most efficient for analysis.  
+After creating matching columns in all five tables: ```brand_id```, ```description```, ```colorway```, ```sales```, and ```discount``` in google sheets, I was able to aggregate the data using the ```=QUERY()``` function, however this method achieved only surface level organization. As a result I would need to use bigQuery/SQL to properly clean and analyze the data.
 <br><br>
 ![google_sheets_tlb](assets/img/portfolio/capstone/google_sheets_tlbs.png)
 
 #### 1.4 DATA CLEANING AND MANIPULATION (SQL)
 
-To prepare the data for analysis, I used BigQuery to join all tables into a single dataset under the ```brand_id``` key_id, and combined product_name with description into one description variable. Finally, I had an aggregated dataset; however, I realized that if I extracted string-specific data from the description column, I could analyze product category frequencies at multiple levels. 
+To prepare the data for analysis, I used BigQuery to join all tables into a single dataset under the ```brand_id``` key_id, and combined ```product_name``` with ```description``` into one description variable. I now had an cleaned and aggregated dataset; however, after looking at the description data more carefully it was apparent by extracting string-specific data from the description column, I could analyze product category frequencies at multiple levels. 
 <br><br>
-Therefore, I created two more variables: ```style_id``` and ```sub_style_id```. Extracted from description using ```REGEXP_EXTRACT()``` and Common Table Expressions (CTE), the first variable represents broad apparel categories (e.g., jackets, coat, track, vest, etc.), and the second variable identifies specific properties such as materials or functions (e.g., down, shell, windstop, etc.). See SQL query below.
+Therefore, I created two more variables: ```style_id``` and ```sub_style_id``` and extracted string data from description using ```REGEXP_EXTRACT()```. Of course this would require the use of Common Table Expressions (CTE) to aggregate the new variable data. The first variable represented broad apparel categories (e.g., jackets, coat, track, vest, etc.), while the second variable identified specific properties such as materials or functions (e.g., down, shell, windstop, etc.). See SQL query below.
 <br><br>
 ```
 WITH descrip_tbl AS -- replace decription_id CTE
