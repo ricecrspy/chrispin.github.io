@@ -44,12 +44,15 @@ I identified five e-commerce boutique stores that align with the Berlin's market
 ![Data_gathering](assets/img/portfolio/capstone/data_gathering.png)
 
 Using the ```=QUERY()``` function I begin data aggregation, but only after I created matching columns in all five tables: brand_id, description, colorway, sales, and discount columns. Although this method achieved the results I was looking for it was not the most efficient for analysis.  
-
+<br><br>
 ![google_sheets_tlb](assets/img/portfolio/capstone/google_sheets_tlbs.png)
 
 #### 1.4 DATA CLEANING AND MANIPULATION (SQL)
 
-By moving the data to bigQuery I began joining the datasets using ```brand_id``` as the key_id and combined ```product_name``` w/ ```description``` as simply ```description```. Finally, I had a consistant aggregated dataset, however while I had my dataset 
+To prepare the data for analysis, I used BigQuery to join all tables into a single dataset under the ```brand_id``` key_id, and combined product_name with description into one description variable. Finally, I had an aggregated dataset; however, I realized that if I extracted string-specific data from the description column, I could analyze product category frequencies at multiple levels. Therefore, I created two more variables: ```style_id``` and ```sub_style_id```. Extracted from description using ```REGEXP_EXTRACT()``` and Common Table Expressions (CTE), the first variable represents broad apparel categories (e.g., jackets, coat, track, vest, etc.), and the second variable identifies specific properties such as materials or functions (e.g., down, shell, windstop, etc.). See SQL query below.
+
+
+
 <br><br>
 
 ```
