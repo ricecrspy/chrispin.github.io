@@ -49,12 +49,10 @@ Using the ```=QUERY()``` function I begin data aggregation, but only after I cre
 
 #### 1.4 DATA CLEANING AND MANIPULATION (SQL)
 
-To prepare the data for analysis, I used BigQuery to join all tables into a single dataset under the ```brand_id``` key_id, and combined product_name with description into one description variable. Finally, I had an aggregated dataset; however, I realized that if I extracted string-specific data from the description column, I could analyze product category frequencies at multiple levels. Therefore, I created two more variables: ```style_id``` and ```sub_style_id```. Extracted from description using ```REGEXP_EXTRACT()``` and Common Table Expressions (CTE), the first variable represents broad apparel categories (e.g., jackets, coat, track, vest, etc.), and the second variable identifies specific properties such as materials or functions (e.g., down, shell, windstop, etc.). See SQL query below.
-
-
-
+To prepare the data for analysis, I used BigQuery to join all tables into a single dataset under the ```brand_id``` key_id, and combined product_name with description into one description variable. Finally, I had an aggregated dataset; however, I realized that if I extracted string-specific data from the description column, I could analyze product category frequencies at multiple levels. 
 <br><br>
-
+Therefore, I created two more variables: ```style_id``` and ```sub_style_id```. Extracted from description using ```REGEXP_EXTRACT()``` and Common Table Expressions (CTE), the first variable represents broad apparel categories (e.g., jackets, coat, track, vest, etc.), and the second variable identifies specific properties such as materials or functions (e.g., down, shell, windstop, etc.). See SQL query below.
+<br><br>
 ```
 WITH descrip_tbl AS -- replace decription_id CTE
 (SELECT
