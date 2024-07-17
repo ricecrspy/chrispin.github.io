@@ -106,7 +106,7 @@ GROUP BY brand_id,description_id, style_id, sub_style_tbl.sub_style_id, price
 ORDER BY price DESC
 ```
 #### 1.5 TABLE CLEANED AND READY FOR ANALYSIS
-After the description variable was aggregated and ```style_id``` and ```sub_style_id``` string data was extracted the dataset was ready for analysis.
+Below is the final dataset after the description variable was aggregated and the string data for ```style_id``` and ```sub_style_id``` were extracted. The dataset is now ready for analysis.
 <br><br>
 ![clean](assets/img/portfolio/capstone/cleaned_data.png)
 
@@ -114,7 +114,7 @@ After the description variable was aggregated and ```style_id``` and ```sub_styl
 The majority of the nulls values in the dataset were in the ```sale_price``` and ```discount``` columns, both of which were not used in the following report.
 
 #### 1.7 VISUALIZATION
-In conclusion I gathered first party data from potential competitors to create the dataset, cleaned and manipulated the data set using google sheets and bigQuery/SQL, created two new variables for frequency analysis, and visualized the data using looker studio in a comprehensive market report. Below is the completed report with key insights and recommendations.  
+In conclusion, I gathered first-party data from potential competitors to create the dataset, cleaned and manipulated the dataset using Google Sheets and BigQuery/SQL, created two new variables for frequency analysis, and visualized the data using Looker Studio in a comprehensive market report. Below is the completed report with key insights and recommendations.
 <br><br>
 ![cover_page](assets/img/portfolio/capstone/cover_page_16x9.png)
 ![categories](assets/img/portfolio/capstone/categories_16x9.png)
