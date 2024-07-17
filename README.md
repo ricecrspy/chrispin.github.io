@@ -49,9 +49,7 @@ After creating matching columns in all five tables: ```brand_id```, ```descripti
 
 #### 1.4 DATA CLEANING AND MANIPULATION (SQL)
 
-To prepare the data for analysis, I used BigQuery to join all tables into a single dataset under the ```brand_id``` key_id, and combined ```product_name``` with ```description``` into one description variable. I now had a cleaned and aggregated dataset; however, looking at the description data more carefully it was apparent I could analyze product category frequencies at multiple levels by extracting string-specific data from the description column. 
-<br><br>
-Therefore, I created two variables: ```style_id``` and ```sub_style_id``` and extracted string data from description using ```REGEXP_EXTRACT()``` and Common Table Expressions (CTE) to aggregate the new variables. The first variable represented broad apparel categories (e.g., jackets, coat, track, vest, etc.), while the second variable identified specific properties such as materials or functions (e.g., down, shell, windstop, etc.). See SQL query below.
+To prepare the data for analysis, I used BigQuery to join all tables into a single dataset under the ```brand_id``` key. I combined ```product_name``` with ```description``` into one description variable, resulting in a cleaned and aggregated dataset. However, to analyze product category frequencies, I needed to extract string-specific data from the description column. Therefore, I created two variables: ```style_id``` and ```sub_style_id```, and extracted them from ```description``` using ```REGEXP_EXTRACT()``` and Common Table Expressions (CTE) for aggregation. The first variable represented broad apparel categories such as jackets, coats, tracks, vests, etc., while the second variable identified specific properties such as materials or functions (e.g., down, shell, windstop, etc.). See the SQL query below.
 <br><br>
 ```
 WITH descrip_tbl AS -- replace decription_id CTE
@@ -75,7 +73,7 @@ style_tbl AS  -- Style_id CTE
   FROM descrip_tbl
   GROUP BY brand_id, product_name, description_id
 ),
-sub_style_tbl AS -- Sub_style_id CTE
+sub_style_tbl AS -- Sub_style_id CTE`
 (SELECT
   brand_id,
   product_name,
