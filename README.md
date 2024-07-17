@@ -49,9 +49,9 @@ After creating matching columns in all five tables: ```brand_id```, ```descripti
 
 #### 1.4 DATA CLEANING AND MANIPULATION (SQL)
 
-To prepare the data for analysis, I used BigQuery to join all tables into a single dataset under the ```brand_id``` key_id, and combined ```product_name``` with ```description``` into one description variable. I now had an cleaned and aggregated dataset; however, after looking at the description data more carefully it was apparent by extracting string-specific data from the description column, I could analyze product category frequencies at multiple levels. 
+To prepare the data for analysis, I used BigQuery to join all tables into a single dataset under the ```brand_id``` key_id, and combined ```product_name``` with ```description``` into one description variable. I now had a cleaned and aggregated dataset; however, looking at the description data more carefully it was apparent I could analyze product category frequencies at multiple levels by extracting string-specific data from the description column. 
 <br><br>
-Therefore, I created two more variables: ```style_id``` and ```sub_style_id``` and extracted string data from description using ```REGEXP_EXTRACT()```. Of course this would require the use of Common Table Expressions (CTE) to aggregate the new variable data. The first variable represented broad apparel categories (e.g., jackets, coat, track, vest, etc.), while the second variable identified specific properties such as materials or functions (e.g., down, shell, windstop, etc.). See SQL query below.
+Therefore, I created two variables: ```style_id``` and ```sub_style_id``` and extracted string data from description using ```REGEXP_EXTRACT()``` and Common Table Expressions (CTE) to aggregate the new variables. The first variable represented broad apparel categories (e.g., jackets, coat, track, vest, etc.), while the second variable identified specific properties such as materials or functions (e.g., down, shell, windstop, etc.). See SQL query below.
 <br><br>
 ```
 WITH descrip_tbl AS -- replace decription_id CTE
@@ -63,25 +63,23 @@ WITH descrip_tbl AS -- replace decription_id CTE
 FROM data-analytics-course-413120.gda_course_8_data.outerwear_tbl
 GROUP BY brand_id, product_name
 ),
-
 style_tbl AS  -- Style_id CTE
 (SELECT
   brand_id,
   product_name,
-  REGEXP_EXTRACT(
+    REGEXP_EXTRACT(
     description_id,
     r'Jacket|Vest|Parka|Coat|Fleece|Anorak|Overcoat|
       Peacoat|Gilet|Track Top|Sweatshirt|Shacket|Overshirt'
   ) AS style_id
   FROM descrip_tbl
   GROUP BY brand_id, product_name, description_id
-
 ),
 sub_style_tbl AS -- Sub_style_id CTE
 (SELECT
   brand_id,
   product_name,
-  REGEXP_EXTRACT(
+    REGEXP_EXTRACT(
     product_name,
     r'Padded|Down|Linner|Puffer|Bomber|Varsity|Hoodie|Flight|Coach|
     Fleece|Shirt|Track|Packable|Nylon|Chore|Shell|Zip|Ripstop|GORE-TEX|
@@ -92,36 +90,32 @@ sub_style_tbl AS -- Sub_style_id CTE
 FROM data-analytics-course-413120.gda_course_8_data.outerwear_tbl
 GROUP BY brand_id, product_name
 )
-
 SELECT 
   berlin_ds.brand_id,
   descrip_tbl.description_id,
   style_tbl.style_id,
   sub_style_tbl.sub_style_id,
-  berlin_ds.price
-  
+  berlin_ds.price  
 FROM 
   data-analytics-course-413120.gda_course_8_data.outerwear_tbl AS berlin_ds 
   FULL OUTER JOIN descrip_tbl ON berlin_ds.product_name = descrip_tbl.product_name
   FULL OUTER JOIN style_tbl ON descrip_tbl.product_name = style_tbl.product_name
   FULL OUTER JOIN sub_style_tbl ON style_tbl.product_name = sub_style_tbl.product_name
 
-
 GROUP BY brand_id,description_id, style_id, sub_style_tbl.sub_style_id, price
 ORDER BY price DESC
 ```
 #### 1.5 TABLE CLEANED AND READY FOR ANALYSIS
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+After the description variable was aggregated and ```style_id``` and ```sub_style_id``` string data was extracted the dataset was ready for analysis.
 <br><br>
 ![clean](assets/img/portfolio/capstone/cleaned_data.png)
 
 #### 1.6 NULL VALUES
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
+The majority of the nulls values in the dataset were in the ```sale_price``` and ```discount``` columns, both of which were not used in the following report.
 
 #### 1.7 VISUALIZATION
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel varius ex, id vulputate urna. Quisque fringilla ante sit amet orci suscipit, a tincidunt est vestibulum. Sed sed eros a nisl sollicitudin commodo. Nam volutpat interdum purus, at pellentesque dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
+In conclusion I gathered first party data from potential competitors to create the dataset, cleaned and manipulated the data set using google sheets and bigQuery/SQL, created two new variables for frequency analysis, and visualized the data using looker studio in a comprehensive market report. Below is the completed report with key insights and recommendations.  
+<br><br>
 ![cover_page](assets/img/portfolio/capstone/cover_page_16x9.png)
 ![categories](assets/img/portfolio/capstone/categories_16x9.png)
 ![down](assets/img/portfolio/capstone/down_16x9.png)
