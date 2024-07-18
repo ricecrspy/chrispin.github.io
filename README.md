@@ -112,8 +112,7 @@ Below is the final dataset after the description variable was aggregated and the
 The majority of the nulls values in the dataset were in the ```sale_price``` and ```discount``` columns, both of which were not used in the following report.
 
 #### 1.7 VISUALIZATION
-In conclusion, I gathered first-party data from potential competitors to create the dataset, cleaned and manipulated the dataset using Google Sheets and BigQuery/SQL, created two new variables for frequency analysis, and visualized the data using Looker Studio in a comprehensive market report. Below is the completed report with key insights and recommendations. <br><br> **Click link to view full report:**
-https://lookerstudio.google.com/reporting/b7b2a1d2-341f-4405-9743-5b4390291fa3 
+In conclusion, I gathered first-party data from potential competitors to create the dataset, cleaned and manipulated the dataset using Google Sheets and BigQuery/SQL, created two new variables for frequency analysis, and visualized the data using Looker Studio in a comprehensive market report. Below is the completed report with key insights and recommendations. 🔗 [Click here to view full report](https://lookerstudio.google.com/reporting/b7b2a1d2-341f-4405-9743-5b4390291fa3) 
 <br><br>
 ![cover_page](assets/img/portfolio/capstone/cover_page_16x9.png)
 ![categories](assets/img/portfolio/capstone/categories_16x9.png)
