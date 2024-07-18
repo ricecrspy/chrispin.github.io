@@ -15,8 +15,8 @@
 - Social media brand collaborations w/ Puma (150k + views), Business Insider (3 million + views), Galieo (16 million + views EU), Hypebeast (48k views), and Sketchers (2023).
 - Increased D2C Shopify conversion rates by 15% yoy through UI/UX optimization, user behavior tracking, and customer & sales analytics.
   
-**Business Intelligence | Data Analyst @ Statmask (2020 - 2023)**
-- Oversaw company P&Ls, managing sales and bottom-line targets, product pricing, costs, and market expansion, achieving a 300% year-over-year revenue growth.
+**Data Analyst | Business Intellegence @ Statmask (2020 - 2023)**
+- Oversaw company P&Ls, sales and bottom-line targets, product pricing, costs, and market expansion, achieving a 300% year-over-year revenue growth.
 - Optimized website UX/UI for improved sales and conversions, aligning brand vision and messaging with user experience and customer flow management, including navigation, site updates, content development, and checkout funnel optimization.
 - Developed and executed comprehensive eCommerce strategies, setting KPIs, objectives, and milestones.
 - Interpreted D2C Shopify analytics to identify purchasing trends and customer behavior, leveraging sales, customer, and digital marketing data.
