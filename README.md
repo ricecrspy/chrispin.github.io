@@ -33,10 +33,12 @@ Google Data Analytics Capstone: Berlin, a premium streetwear fashion brand, want
 
 #### 1.2 OUTLINE
 
-- 1.3 Data Gathering
-- 1.4 Data Cleaning and Manipulation
-- 1.5 Visualization
-- 1.6 Insights and Recommendations
+- 1.3 DATA GATHERING
+- 1.4 DATA CLEANING AND MANIPULATION w/ SQL
+- 1.5 DATA ANALYSIS
+- 1.6 NULL VALUES
+- 1.7 VISUALIZATION
+- 1.8 REPORT PREVIEW
 
 #### 1.3 DATA GATHERING
 I identified five e-commerce boutique stores that align with Berlin's market positioning in terms of price, product design, target customer, and quality. Using a Chrome browser web crawler extension, I scraped over 300 rows of data observations, about 30-70 rows from each website, based on the following variables: brand name, product description, colorway, price, discount, and sale price. Data structures varied from store to store, and as a result, a unique table was created for each, totaling five tables.
@@ -47,7 +49,7 @@ After creating matching columns in all five tables: ```brand_id```, ```descripti
 <br><br>
 ![google_sheets_tlb](assets/img/portfolio/capstone/google_sheets_tlbs.png)
 
-#### 1.4 DATA CLEANING AND MANIPULATION (SQL)
+#### 1.4 DATA CLEANING AND MANIPULATION w/ SQL
 
 To prepare the data for analysis, I used BigQuery to join all tables into a single dataset under the ```brand_id``` key. I combined ```product_name``` with ```description``` into one description variable, resulting in a cleaned and aggregated dataset. However, to analyze product category frequencies, I needed to extract string-specific data from the description column. Therefore, I created two variables: ```style_id``` and ```sub_style_id```, and extracted them from ```description``` using ```REGEXP_EXTRACT()``` and Common Table Expressions (CTE) for aggregation. The first variable represented broad apparel categories such as jackets, coats, tracks, vests, etc., while the second variable identified specific properties such as materials or functions (e.g., down, shell, windstop, etc.). See the SQL query below.
 <br><br>
@@ -103,7 +105,7 @@ FROM
 GROUP BY brand_id,description_id, style_id, sub_style_tbl.sub_style_id, price
 ORDER BY price DESC
 ```
-#### 1.5 TABLE CLEANED AND READY FOR ANALYSIS
+#### 1.5 DATA ANALYSIS
 Below is the final dataset after the description variable was aggregated and the string data for ```style_id``` and ```sub_style_id``` were extracted. The dataset is now ready for analysis.
 <br><br>
 ![clean](assets/img/portfolio/capstone/cleaned_data.png)
@@ -112,7 +114,9 @@ Below is the final dataset after the description variable was aggregated and the
 The majority of the nulls values in the dataset were in the ```sale_price``` and ```discount``` columns, both of which were not used in the following report.
 
 #### 1.7 VISUALIZATION
-In conclusion, I gathered first-party data from potential competitors to create the dataset, cleaned and manipulated the dataset using Google Sheets and BigQuery/SQL, created two new variables for frequency analysis, and visualized the data using Looker Studio in a comprehensive market report. Below is the completed report with key insights and recommendations. 🔗 [Click here to view full report](https://lookerstudio.google.com/reporting/b7b2a1d2-341f-4405-9743-5b4390291fa3) 
+In conclusion, I gathered first-party data from potential competitors to create the dataset, cleaned and manipulated the dataset using Google Sheets and BigQuery/SQL, created two new variables for frequency analysis, and visualized the data using Looker Studio in a comprehensive market report. Below is the completed report with key insights and recommendations. 🔗 [Click here to view full report](https://lookerstudio.google.com/reporting/b7b2a1d2-341f-4405-9743-5b4390291fa3)
+<br><br>
+#### 1.8 REPORT PREVIEW
 <br><br>
 ![cover_page](assets/img/portfolio/capstone/cover_page_16x9.png)
 ![categories](assets/img/portfolio/capstone/categories_16x9.png)
