@@ -16,7 +16,7 @@
 - Increased D2C Shopify conversion rates by 15% yoy through UI/UX optimization, user behavior tracking, and customer & sales analytics.
 
 **Data Analyst | Business Intelligence @ Statmask (2020 - 2023)**
-- Conducted market trend and competitive analysis with using data gathering, Google Sheets, SQL, and Looker Studio visualization, leading to a 30% YoY increase in D2C sales by targeting key ad platforms and influencer channels.
+- Conducted market trend and competitive analysis using web crawling, Google Sheets, SQL, and Looker Studio visualization, leading to a 30% YoY increase in D2C sales by targeting key ad platforms and influencer channels.
 - Achieved a 150% boost in manufacturing efficiency analyzing CNC and sewing machine data using custom analytical models, which identified key production bottlenecks.
 - 
 
