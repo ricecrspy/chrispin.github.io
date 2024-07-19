@@ -1,4 +1,4 @@
-# Data Analyst & Visualization
+# Data Analyst & Data Visualization
 
 ## Technical Skills
 #### DATA <br><br> SQL, Looker Studio, BigQuery, Tableau, Google Sheets, Excel
