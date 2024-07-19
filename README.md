@@ -14,9 +14,8 @@
 - Digital marketing content strategy and implementation; optimization of facebook ads and instagram organic reach achieving a Socialblade.com score of B+ (2018-2022)
 - Social media brand collaborations w/ Puma (150k + views), Business Insider (3 million + views), Galieo (16 million + views EU), Hypebeast (48k views), and Sketchers (2023).
 - Increased D2C Shopify conversion rates by 15% yoy through UI/UX optimization, user behavior tracking, and customer & sales analytics.
-  
-**Data Analyst | Business Intelligence @ Statmask (2020 - 2023)**
 
+**Data Analyst | Business Intelligence @ Statmask (2020 - 2023)**
 - Conducted market trend and competitive analysis with using data gathering, Google Sheets, SQL, and Looker Studio visualization, leading to a 30% YoY increase in D2C sales by targeting key ad platforms and influencer channels.
 - Achieved a 150% boost in manufacturing efficiency analyzing CNC and sewing machine data using custom analytical models, which identified key production bottlenecks.
 - 
