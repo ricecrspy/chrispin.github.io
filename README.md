@@ -25,7 +25,13 @@
 
 #### 1.1 GEO-LOCATION DASHBOARD
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+<br><br>
+![geo_location](assets/img/portfolio/capstone/statmask_geolocation_dashboard.png)
 
+#### 1.2 Profit and Loss Dashboard
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+<br><br>
+![profitloss](assets/img/portfolio/capstone/statmask_PnL.png)
 
 ### BERLIN OUTERWEAR MARKET REPORT
 
