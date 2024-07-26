@@ -23,7 +23,7 @@
 ## Projects
 ### STATMASK
 
-#### 1.1 GEO-LOCATION DASHBOARD
+#### 1.1 Geo-Location Dashboard
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
 <br><br>
 ![geo_location](assets/img/portfolio/capstone/statmask_geolocation_dashboard.png)
