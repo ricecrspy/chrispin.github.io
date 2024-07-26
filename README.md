@@ -21,6 +21,11 @@
 - Developed a competitive research dashboard analyzing government contracts using secondary federal contracting data helping the company identifies local and national competitors ranked by yearly revenue, location, and product type (NAICS Codes). 
 
 ## Projects
+### STATMASK
+
+#### 1.1 GEO-LOCATION DASHBOARD
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+
 
 ### BERLIN OUTERWEAR MARKET REPORT
 
