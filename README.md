@@ -28,9 +28,10 @@
 Statmask, LLC is a Brooklyn-based manufacturer of face masks founded in 2020 in response to the COVID-19 pandemic. To effectively compete in the marketplace, the company focused on leveraging daily, weekly, and monthly data insights to make strategic decisions in the constantly changing business environment. Below are a few of the dashboards used to support the decision-making process.
 
 #### 1.2 GEO LOCATION DASHBOARD
+![geo_location](assets/img/portfolio/capstone/statmask_geolocation_dashboard.png)
 To better understand customer behavior, I created a dashboard using customer location data (state, city, zip code) to help us identify key market regions. By analyzing our Shopify transaction data using a geo-location map, we learned that most of our customers were from the East and West coasts of the United States. As a result, we were able to maximize our marketing budget by focusing our efforts in those regions.
 <br><br>
-![geo_location](assets/img/portfolio/capstone/statmask_geolocation_dashboard.png)
+
 
 #### 1.3 INCOME AND EXPENSE KPI DASHBOARD
 Statmask was founded as a bootstrapped startup with minimal capital, which meant we needed to generate sales as quickly as possible. However, standard accounting applications such as QuickBooks were not helpful in tracking our cash flow performance, not to mention the monthly cost. Instead, I opted to create a custom Looker Studio dashboard that pulled data from an aggregated income and expense Google Sheet, which was updated weekly. As a result, we were able to track the company's income (on the left) and expenses (on the right) with more accuracy and timeliness compared to Quickbooks. 
