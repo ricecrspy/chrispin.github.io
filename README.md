@@ -1,9 +1,10 @@
 # Data Analyst & Data Visualization
 
 ## Technical Skills
-#### SQL, Looker Studio, BigQuery, Tableau, Google Sheets, Excel, Adobe Illustrator, Adobe Photoshop, Adobe XD, Adobe Creative Cloud
+#### SQL, Python, Looker Studio, BigQuery, Tableau, Google Sheets, Excel, Adobe Illustrator, Adobe Photoshop, Adobe XD, Adobe Creative Cloud
 
 ## Education
+- IBM Python for Data Science, AI Development Certification (2024)
 - Google Data Analytics Certification (2024)
 - B.A. Fashion Design & Marketing, IADT (2008)
 
