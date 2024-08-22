@@ -16,10 +16,10 @@
 - Increased D2C Shopify conversion rates by 15% YoY through UI/UX optimization, user behavior analytics, and sales analysis.
 
 **Data Analyst | Business Intelligence @ Statmask (2020 - 2023)**
-- Market trend research leading to a 30% YoY increase in D2C sales by targeting key ad platforms and influencer channels. Web crawling for first party data collection, google sheets/bigQuery/SQL for data cleaning and Looker Studio for KIP reporting.
+- Market trend research leading to a 25% YoY increase in D2C sales by targeting key ad platforms and influencer channels. Web crawling for first party data collection, google sheets/bigQuery/SQL for data cleaning and Looker Studio for KIP reporting.
 - Geolocation dashboard using first party shopify sales data to optimize influencer collaborations and ad targeting. 
 - Achieved a 150% boost in manufacturing efficiency by analyzing CNC and sewing machine data by identifying production bottlenecks using custom analytical models. 
-- Developed a competitive research dashboard analyzing government contracts using secondary federal contracting data helping the company identifies local and national competitors ranked by yearly revenue, location, and product type (NAICS Codes). 
+- Developed a competitive research dashboard analyzing government contracts using secondary federal contracting data helping to identify local and national competitors ranked by yearly revenue, location, and product type (NAICS Codes). 
 
 ## Projects 
 ### 1.0 STATMASK, LLC
@@ -29,19 +29,23 @@ Statmask, LLC is a Brooklyn-based manufacturer of face masks founded in 2020 in 
 
 #### 1.2 GEO LOCATION DASHBOARD
 ![geo_location](assets/img/portfolio/capstone/statmask_geolocation_dashboard.png)
+<br><br>
 To better understand customer behavior, I created a dashboard using customer location data (state, city, zip code) to help us identify key market regions. By analyzing our Shopify transaction data using a geo-location map, we learned that most of our customers were from the East and West coasts of the United States. As a result, we were able to maximize our marketing budget by focusing our efforts in those regions.
 <br><br>
 
 
 #### 1.3 INCOME AND EXPENSE KPI DASHBOARD
-Statmask was founded as a bootstrapped startup with minimal capital, which meant we needed to generate sales as quickly as possible. However, standard accounting applications such as QuickBooks were not helpful in tracking our cash flow performance, not to mention the monthly cost. Instead, I opted to create a custom Looker Studio dashboard that pulled data from an aggregated income and expense Google Sheet, which was updated weekly. As a result, we were able to track the company's income (on the left) and expenses (on the right) with more accuracy and timeliness compared to Quickbooks. 
-<br><br>
 ![profitloss](assets/img/portfolio/capstone/statmask_PnL.png)
+<br><br>
+Statmask was founded as a bootstrapped startup with minimal capital, which meant we needed to generate sales as quickly as possible. However, standard accounting applications such as QuickBooks were not helpful in tracking our cash flow performance, not to mention the monthly cost. Instead, I opted to create a custom Looker Studio dashboard that pulled data from an aggregated income and expense Google Sheet, which was updated weekly. As a result, we were able to track the company's income (on the left) and expenses (on the right) with more accuracy and timeliness compared to Quickbooks. 
+
 
 #### 1.4 COMPETITIVE RESEARCH
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
-<br><br>
 ![National competitive Research](assets/img/portfolio/capstone/statmask_contactor_comp_rsrch.png)
+<br><br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+
+***
 
 ### 2.0 BERLIN OUTERWEAR MARKET REPORT
 
