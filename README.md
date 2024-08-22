@@ -32,8 +32,8 @@ To better understand customer behavior, I created a dashboard using customer loc
 <br><br>
 ![geo_location](assets/img/portfolio/capstone/statmask_geolocation_dashboard.png)
 
-#### 1.3 PROFIT AND LOSS DASHBOARD
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+#### 1.3 INCOME AND EXPENSE KPI DASHBOARD
+Statmask was founded as a bootstrapped startup with minimal capital, which meant we needed to generate sales as quickly as possible. However, standard accounting applications such as QuickBooks were not helpful in tracking our cash flow performance, not to mention the monthly cost. Instead, I opted to create a custom Looker Studio dashboard that pulled data from an aggregated income and expense Google Sheet, which was updated weekly. As a result, we were able to track the company's income (on the left) and expenses (on the right) with more accuracy and timeliness compared to Quickbooks. 
 <br><br>
 ![profitloss](assets/img/portfolio/capstone/statmask_PnL.png)
 
