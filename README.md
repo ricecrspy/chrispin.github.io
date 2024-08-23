@@ -22,10 +22,10 @@
 - Developed a competitive research dashboard analyzing government contracts using secondary federal contracting data helping to identify local and national competitors ranked by yearly revenue, location, and product type (NAICS Codes). 
 
 ## Projects 
-### 1.0 STATMASK, LLC
+### 1.0 DASHBOARDS
 
 #### 1.1 ABOUT
-Statmask, LLC is a Brooklyn-based manufacturer of face masks founded in 2020 in response to the COVID-19 pandemic. To effectively compete in the marketplace, the company focused on leveraging daily, weekly, and monthly data insights to make strategic decisions in the constantly changing business environment. Below are a few of the dashboards used to support the decision-making process.
+Statmask, LLC is a Brooklyn-based manufacturer of facemasks founded in response to the COVID-19 pandemic. To effectively compete in the marketplace, the company focused on leveraging daily, weekly, and monthly data insights to make strategic decisions in the constantly changing business environment. Below are a few of the dashboards used to support the decision-making process.
 
 #### 1.2 GEO LOCATION DASHBOARD
 ![geo_location](assets/img/portfolio/capstone/statmask_geolocation_dashboard.png)
@@ -43,8 +43,7 @@ Statmask was founded as a bootstrapped startup with minimal capital, which meant
 #### 1.4 COMPETITIVE RESEARCH
 ![National competitive Research](assets/img/portfolio/capstone/statmask_contactor_comp_rsrch.png)
 <br><br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
-
+As the market for face masks began to saturate with cheaper imported brands, Statmask started looking to pivot towards government contracting. Given the company's equipment, infrastructure, and apparel manufacturing expertise, I was tasked with researching potential competitors. I gathered first-party federal contractor data from multiple sources, aggregated the data, and finally developed the above dashboard, helping the company quickly understand the apparel contracting landscape by state, city, and action (i.e., revenue). 
 ***
 
 ### 2.0 BERLIN OUTERWEAR MARKET REPORT
