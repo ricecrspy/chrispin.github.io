@@ -1,14 +1,17 @@
 # Data Analyst & Data Visualization
 
 ## Technical Skills
+***
 #### SQL, Python, Looker Studio, BigQuery, Tableau, Google Sheets, Excel, Adobe Illustrator, Adobe Photoshop, Adobe XD, Adobe Creative Cloud
 
 ## Education
+***
 - IBM Python for Data Science, AI Development Certification, Coursera (2024)
 - Google Data Analytics Certification, Coursera (2024)
 - B.A. Fashion Design & Marketing, IADT (2008)
 
 ## Work Experience
+***
 **Digital Marketing Analyst @ Haute Hero (2014 - 2023)**
 - User-generated content and engagement analysis resulting in 30% YoY increased user engagement and 20% YoY follower growth (2015-2022)
 - Digital marketing content strategy and implementation; optimization of facebook ads and instagram organic reach achieving a Socialblade.com score of B+ (2018-2022)
@@ -21,7 +24,8 @@
 - Achieved a 150% boost in manufacturing efficiency by analyzing CNC and sewing machine data by identifying production bottlenecks using custom analytical models. 
 - Developed a competitive research dashboard analyzing government contracts using secondary federal contracting data helping to identify local and national competitors ranked by yearly revenue, location, and product type (NAICS Codes). 
 
-## Projects 
+## Projects
+***
 ### 1.0 DASHBOARDS: Statmask LLC
 
 #### 1.1 ABOUT
