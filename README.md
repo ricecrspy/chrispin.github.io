@@ -31,19 +31,17 @@ Statmask, LLC is a Brooklyn-based manufacturer of facemasks founded in response 
 ![geo_location](assets/img/portfolio/capstone/statmask_geolocation_dashboard.png)
 <br><br>
 To better understand customer behavior, I created a dashboard using customer location data (state, city, zip code) to help us identify key market regions. By analyzing our Shopify transaction data using a geo-location map, we learned that most of our customers were from the East and West coasts of the United States. As a result, we were able to maximize our marketing budget by focusing our efforts in those regions.
-<br><br>
-
 
 #### 1.3 INCOME AND EXPENSE KPI DASHBOARD
 ![profitloss](assets/img/portfolio/capstone/statmask_PnL.png)
 <br><br>
 Statmask was founded as a bootstrapped startup with minimal capital, which meant we needed to generate sales as quickly as possible. However, standard accounting applications such as QuickBooks were not helpful in tracking our cash flow performance, not to mention the monthly cost. Instead, I opted to create a custom Looker Studio dashboard that pulled data from an aggregated income and expense Google Sheet, which was updated weekly. As a result, we were able to track the company's income (on the left) and expenses (on the right) with more accuracy and timeliness compared to Quickbooks. 
 
-
 #### 1.4 COMPETITIVE RESEARCH
 ![National competitive Research](assets/img/portfolio/capstone/statmask_contactor_comp_rsrch.png)
 <br><br>
 As the market for face masks began to saturate with cheaper imported brands, Statmask started looking to pivot towards government contracting. Given the company's equipment, infrastructure, and apparel manufacturing expertise, I was tasked with researching potential competitors. I gathered first-party federal contractor data from multiple sources, aggregated the data, and finally developed the above dashboard, helping the company quickly understand the apparel contracting landscape by state, city, and action (i.e., revenue). 
+
 ***
 
 ### 2.0 MARKET REPORT: Outerwear Trend Analysis
