@@ -22,7 +22,7 @@
 - Developed a competitive research dashboard analyzing government contracts using secondary federal contracting data helping to identify local and national competitors ranked by yearly revenue, location, and product type (NAICS Codes). 
 
 ## Projects 
-### 1.0 DASHBOARDS
+### 1.0 DASHBOARDS: Statmask LLC
 
 #### 1.1 ABOUT
 Statmask, LLC is a Brooklyn-based manufacturer of facemasks founded in response to the COVID-19 pandemic. To effectively compete in the marketplace, the company focused on leveraging daily, weekly, and monthly data insights to make strategic decisions in the constantly changing business environment. Below are a few of the dashboards used to support the decision-making process.
@@ -46,7 +46,7 @@ Statmask was founded as a bootstrapped startup with minimal capital, which meant
 As the market for face masks began to saturate with cheaper imported brands, Statmask started looking to pivot towards government contracting. Given the company's equipment, infrastructure, and apparel manufacturing expertise, I was tasked with researching potential competitors. I gathered first-party federal contractor data from multiple sources, aggregated the data, and finally developed the above dashboard, helping the company quickly understand the apparel contracting landscape by state, city, and action (i.e., revenue). 
 ***
 
-### 2.0 BERLIN OUTERWEAR MARKET REPORT
+### 2.0 MARKET REPORT: Outerwear Trend Analysis
 
 #### 2.1 ABOUT
 Google Data Analytics Capstone: Berlin, a premium streetwear fashion brand, wants to expand by offering outerwear pieces in its collection. However, before launching the new product line, the company's President wants a high-level report analyzing current market trends and competitors. The Director of Marketing and Sales tasked me with performing market research and creating a report that highlights trends, market insights, and key recommendations using data analytics.
@@ -60,10 +60,12 @@ Google Data Analytics Capstone: Berlin, a premium streetwear fashion brand, want
 - 2.8 Report Preview
 
 #### 2.3 DATA GATHERING
-I identified five e-commerce boutique stores that align with Berlin's market positioning in terms of price, product design, target customer, and quality. Using a Chrome browser web crawler extension, I scraped over 300 rows of data observations, about 30-70 rows from each website, based on the following variables: brand name, product description, colorway, price, discount, and sale price. Data structures varied from store to store, and as a result, a unique table was created for each, totaling five tables.
-
 ![Data_gathering](assets/img/portfolio/capstone/data_gathering.png)
-
+<br><br>
+I identified five e-commerce boutique stores that align with Berlin's market positioning in terms of price, product design, target customer, and quality. Using a Chrome browser web crawler extension, I scraped over 300 rows of data observations, about 30-70 rows from each website, based on the following variables: brand name, product description, colorway, price, discount, and sale price. Data structures varied from store to store, and as a result, a unique table was created for each, totaling five tables.
+<br><br>
+![google_sheets_tlb](assets/img/portfolio/capstone/google_sheets_tlbs.png)
+<br><br>
 After creating matching columns in all five tables: ```brand_id```, ```description```, ```colorway```, ```sales```, and ```discount``` in google sheets, I was able to aggregate the data using the ```=QUERY()``` function, however this method achieved only surface level organization. As a result I would need to use bigQuery/SQL to properly clean and analyze the data.
 <br><br>
 ![google_sheets_tlb](assets/img/portfolio/capstone/google_sheets_tlbs.png)
@@ -125,9 +127,10 @@ GROUP BY brand_id,description_id, style_id, sub_style_tbl.sub_style_id, price
 ORDER BY price DESC
 ```
 #### 2.5 DATA ANALYSIS
+![clean](assets/img/portfolio/capstone/cleaned_data.png)
+<br><br>
 Below is the final dataset after the description variable was aggregated and the string data for ```style_id``` and ```sub_style_id``` were extracted. The dataset is now ready for analysis.
 <br><br>
-![clean](assets/img/portfolio/capstone/cleaned_data.png)
 
 #### 2.6 NULL VALUES
 The majority of the nulls values in the dataset were in the ```sale_price``` and ```discount``` columns, both of which were not used in the following report.
