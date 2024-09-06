@@ -11,7 +11,7 @@ header {
     overflow: auto; // In case the content exceeds the fixed size
     margin: 0 auto; // Center the paragraph if needed
     padding: 10px; // Add some padding for better appearance
-    box-sizing: border-box; // Include padding in the total width/height
+    box-sizing: none; // Include padding in the total width/height
   }
 }
 
