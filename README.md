@@ -1,5 +1,9 @@
 # Data Analyst & Data Visualization
 
+## Work Summary
+
+I am Certified Google Data Analyst with a passion for transforming raw data into actionable insights. With a unique background blending fashion design and digital marketing, I bring a creative edge to data analysis. Proficient in SQL, Python, and various data visualization tools, I excel at uncovering trends and optimizing strategies. My experience spans from boosting user engagement by 30% YoY to increasing manufacturing efficiency by 150% through data-driven decision making. I've leveraged my skills in market research, geolocation analysis, and competitive intelligence to drive business growth across diverse industries. Armed with certifications from Google and IBM, I combine technical expertise with a keen eye for design to create compelling data stories that inform and inspire.
+
 ## Technical Skills
 ***
 #### SQL, Python, Looker Studio, BigQuery, Tableau, Google Sheets, Excel, Adobe Illustrator, Adobe Photoshop, Adobe XD, Adobe Creative Cloud
