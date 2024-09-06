@@ -53,7 +53,7 @@ As the market for face masks began to saturate with cheaper imported brands, Sta
 ***
 
 ### 2.0 MARKET REPORT: Outerwear Trend Analysis
-
+![cover_page](assets/img/portfolio/capstone/cover_page_16x9.png)
 #### 2.1 ABOUT
 Google Data Analytics Capstone: Berlin, a premium streetwear fashion brand, wants to expand by offering outerwear pieces in its collection. However, before launching the new product line, the company's President wants a high-level report analyzing current market trends and competitors. The Director of Marketing and Sales tasked me with performing market research and creating a report that highlights trends, market insights, and key recommendations using data analytics.
 
@@ -146,7 +146,6 @@ In conclusion, I gathered first-party data from potential competitors to create 
 <br><br>
 #### 2.8 REPORT PREVIEW
 <br><br>
-![cover_page](assets/img/portfolio/capstone/cover_page_16x9.png)
 ![categories](assets/img/portfolio/capstone/categories_16x9.png)
 ![down](assets/img/portfolio/capstone/down_16x9.png)
 ![unique_styles](assets/img/portfolio/capstone/unique_styles_16x9.png)
