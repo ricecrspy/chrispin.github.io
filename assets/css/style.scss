@@ -1,1 +1,50 @@
+---
+---
+
+@import "{{ jekyll-theme-minimal }}";
+
+// Custom styles to modify the "Certified Google Data Analyst" paragraph
+header {
+  p {
+    width: 270px;
+    height: 370px;
+    overflow: auto; // In case the content exceeds the fixed size
+    margin: 0 auto; // Center the paragraph if needed
+    padding: 10px; // Add some padding for better appearance
+    box-sizing: border-box; // Include padding in the total width/height
+  }
+}
+
+// Additional styles to ensure the paragraph is visible and fits well
+header {
+  p {
+    background-color: rgba(255, 255, 255, 0.8); // Semi-transparent background
+    border: 1px solid #ddd; // Add a subtle border
+    border-radius: 5px; // Rounded corners
+    font-size: 14px; // Adjust font size if needed
+    line-height: 1.5; // Improve readability
+    text-align: justify; // Justify text for a cleaner look
+    
+    // Style for scroll bar in case of overflow
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #888;
+      border-radius: 4px;
+    }
+    &::-webkit-scrollbar-track {
+      background-color: #f1f1f1;
+    }
+  }
+}
+
+// Ensure the header can accommodate the larger paragraph
+header {
+  min-height: 400px; // Adjust this value as needed
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
