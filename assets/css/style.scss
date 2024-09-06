@@ -1,13 +1,13 @@
 ---
 ---
 
-@import "{{jekyll-theme-minimal}}";
+@import "{{ site.theme }}";
 
 // Custom styles to modify the "Certified Google Data Analyst" paragraph
 header {
   p {
     width: 270px;
-    height: 1000;
+    height: 370px;
     overflow: auto; // In case the content exceeds the fixed size
     margin: 0 auto; // Center the paragraph if needed
     padding: 10px; // Add some padding for better appearance
@@ -47,4 +47,3 @@ header {
   justify-content: center;
   align-items: center;
 }
-
