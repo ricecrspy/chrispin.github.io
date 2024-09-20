@@ -14,7 +14,7 @@ Certified Google Data Analyst with over 15 years of combined experience in fashi
 - Google Data Analytics Certification, Coursera (2024)
 - B.A. Fashion Design & Marketing, IADT (2008)
 
-## Work Experience
+## Recent Work Experience
 ***
 **Digital Marketing Analyst @ Haute Hero (2014 - 2023)**
 - User-generated content and engagement analysis resulting in 30% YoY increased user engagement and 20% YoY follower growth (2015-2022)
