@@ -2,7 +2,7 @@
 
 ## Work Summary
 ***
-Certified Google Data Analyst with over 15 years of combined experience in fashion design, eCommerce, digital marketing, and data analysis. My unique background allows me to help lifestyle brands identify key business insights, uncover market trends, and grow sales by leveraging tools such as SQL, Python, and BigQuery. My analytics performance includes a 25% year-over-year increase in direct-to-consumer (D2C) sales; a 150% increase in product manufacturing performance; a 20% year-over-year growth in social media followers; and over 8 million combined content views across multiple platforms (YouTube, Instagram, and Facebook).
+Certified Google Data Analyst with over 15 years of combined experience in fashion design, eCommerce, and digital marketing. My unique background allows me to help lifestyle brands identify key business insights, uncover market trends, and grow sales by leveraging tools such as SQL, Python, and BigQuery. My analytics performance includes a 25% year-over-year increase in direct-to-consumer (D2C) sales; a 150% increase in product manufacturing performance; a 20% year-over-year growth in social media followers; and over 8 million combined content views across multiple platforms (YouTube, Instagram, and Facebook).
 
 ## Technical Skills
 ***
