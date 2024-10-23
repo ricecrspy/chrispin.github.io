@@ -16,6 +16,12 @@ Certified Google Data Analyst with over 15 years of combined experience in fashi
 
 ## Recent Work Experience
 ***
+
+**Market Researcher @ Brand You Agency (Jun 2024 - Jul 2024) - Freelance**
+- Mining competitor product data from online stores for market research, resulting in over 300 unique product observations.
+- Cleaning & optimizing data by parsing HTML tags using Python organizing data into tabular format.
+- Delivered clean market relevant tabular data as per client’s specification w/ additional variables for further analysis.
+
 **Digital Marketing Analyst @ Haute Hero (2014 - 2023)**
 - User-generated content and engagement analysis resulting in 30% YoY increased user engagement and 20% YoY follower growth (2015-2022)
 - Digital marketing content strategy and implementation; optimization of facebook ads and instagram organic reach achieving a Socialblade.com score of B+ (2018-2022)
